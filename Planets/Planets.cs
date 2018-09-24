@@ -20,11 +20,19 @@ namespace Planets
 {
     class Planets
     {
+        enum Planet
+        {
+            MERCURY = 1, VENUS, EARTH, MARS,
+            JUPITER, SATURN, URANUS, NEPTUNE
+        }
         static void Main(string[] args)
         {
             WriteLine("hw1#17 - Patrick Barnes");
             WriteLine("Planets");
 
+            Planet inputNum = (Planet)int.Parse(ReadLine());
+
+            WriteLine("{0} is {1}", (int)inputNum, inputNum);
 
 
             WriteLine("--End--");
