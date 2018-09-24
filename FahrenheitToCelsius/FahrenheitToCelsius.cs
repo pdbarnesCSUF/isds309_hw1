@@ -24,7 +24,14 @@ namespace FahrenheitToCelsius
             WriteLine("hw1#15 - Patrick Barnes");
             WriteLine("FahrenheitToCelsius");
 
+            double inputTemp = 0;
+            double calculatedTemp = 0;
 
+            Write("Temp (in F):");
+            inputTemp = double.Parse(ReadLine());
+            calculatedTemp = (inputTemp - 32) * (5.0 / 9.0);
+
+            WriteLine("{0} Fahrenheit = {1} Celsius",inputTemp.ToString("#0.0"),calculatedTemp.ToString("#0.0"));
 
             WriteLine("--End--");
         }
