@@ -3,7 +3,7 @@ Assignment 1 - Chapter 2 - A
 
 https://moodle-2018-2019.fullerton.edu/mod/assign/view.php?id=971229
 
-Due: Tuesday, Sept 25, 4 pm (before class)
+**Due: Tuesday, Sept 25, 4 pm (before class)**
 
 
 *** Please complete the following 10 exercises.
