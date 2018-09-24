@@ -19,11 +19,20 @@ namespace MonthNames
 {
     class MonthNames
     {
+        enum Months
+        {
+            JANUARY = 1, FEBRUARY, MARCH, APRIL,
+            MAY, JUNE, JULY, AUGUST,
+            SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
+        }
         static void Main(string[] args)
         {
             WriteLine("hw1#16 - Patrick Barnes");
             WriteLine("MonthNames");
 
+            Months inputNum = (Months) int.Parse(ReadLine());
+
+            WriteLine("{0} is {1}", (int)inputNum, inputNum);
 
 
             WriteLine("--End--");
