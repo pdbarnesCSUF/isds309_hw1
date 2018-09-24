@@ -23,7 +23,20 @@ namespace TestsInteractive
             WriteLine("hw1#14 - Patrick Barnes");
             WriteLine("TestsInteractive");
 
+            double calcNum = 0;
 
+            Write("Test1:"); calcNum += double.Parse(ReadLine());
+            Write("Test2:"); calcNum += double.Parse(ReadLine());
+            Write("Test3:"); calcNum += double.Parse(ReadLine());
+            Write("Test4:"); calcNum += double.Parse(ReadLine());
+            Write("Test5:"); calcNum += double.Parse(ReadLine());
+            Write("Test6:"); calcNum += double.Parse(ReadLine());
+            Write("Test7:"); calcNum += double.Parse(ReadLine());
+            Write("Test8:"); calcNum += double.Parse(ReadLine());
+
+            calcNum /= 9;
+
+            WriteLine("Avg:{0}", calcNum.ToString("#0.00"));
 
             WriteLine("--End--");
         }
