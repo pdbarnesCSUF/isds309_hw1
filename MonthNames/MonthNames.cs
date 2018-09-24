@@ -19,7 +19,7 @@ namespace MonthNames
 {
     class MonthNames
     {
-        enum Months
+        enum Month
         {
             JANUARY = 1, FEBRUARY, MARCH, APRIL,
             MAY, JUNE, JULY, AUGUST,
@@ -30,7 +30,7 @@ namespace MonthNames
             WriteLine("hw1#16 - Patrick Barnes");
             WriteLine("MonthNames");
 
-            Months inputNum = (Months) int.Parse(ReadLine());
+            Month inputNum = (Month) int.Parse(ReadLine());
 
             WriteLine("{0} is {1}", (int)inputNum, inputNum);
 
